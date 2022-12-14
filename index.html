@@ -1,0 +1,275 @@
+<!-- Andrew Jones -->
+<!-- 9/22/2022 -->
+<!-- Web Portfolio -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap stylesheet -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" id="theme-stylesheet" />
+
+  <!-- Linking Css to my Html-->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/b3355e6264.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+  <link rel="manifest" href="images/site.webmanifest" />
+
+  <!-- Page Info -->
+  <title>Web Portfolio</title>
+  <meta name="description" content="Andrew Jones' Web Portfolio Main page" />
+  <meta name="keywords" content="Andrew Jones, Drew Jones, Jones, Andrew, Drew" />
+
+</head>
+
+<body class="scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
+      <div class="container"><a class="navbar-brand" href="index.html"><img src="images/favicon.ico" alt="logo"
+            width="45" /></a>
+        <a class="navbar-brand text-info" id="check-y" href="#">Web Portfolio</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item text-end"><a id="nav-about" class="nav-link text-uppercase text-info text-muted active" href="#catch">About Me</a></li>
+            <li class="nav-item text-end"><a id="nav-resume" class="nav-link text-uppercase text-info " href="#resume">Resume</a></li>
+            <li class="nav-item text-end"><a id="nav-coursework" class="nav-link text-uppercase text-info" href="#coursework">Coursework</a></li>
+            <li class="nav-item text-end"><a id="nav-experience" class="nav-link text-uppercase text-info" href="#experience">Portfolio</a></li>
+            <li class="nav-item text-end"><a id="nav-contact" class="nav-link text-uppercase text-info" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Eye Catch Section-->
+  <section class="catch bg-cover bg-center py-5" id="catch">
+    <div class="container py-3 my-5 z-index-20 position-relative">
+      <div class="row py-lg-5 mt-5">
+        <div class="col-md-8 text-white">
+          <h2 class="h4 text-info fw-normal mb-0">Hi, I am</h2>
+          <h1 class="text-uppercase text-xl mb-0">Andrew <span class="text-info">Jones</span></h1>
+          <h2 class="h4 fw-normal mb-5">Application and Web Developer</h2>
+          <p class="text-shadow">HTML, Css, Js, SQL, C#, C++</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section-->
+  <section class="py-5 bg-light" id="about">
+    <div class="container py-5">
+      <header class="mb-5">
+        <p class="fw-bold text-primary text-uppercase">About me </p>
+        <h2 class="h3 lined">About</h2>
+      </header>
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-12 me-3">
+          <img src="images/MePic.png" alt="Image of Andrew Jones" />
+        </div>
+        <div class="col-lg-5 col-md-8 col-sm-12">
+          <p class="text-muted">My name is Andrew Jones, I strive to attain a position in the Application and Web
+            Development field that will allow me to learn from others and help others while being a valuable asset to the
+            team. I gained an interest in coding at the age of 13 and began looking into coding. I enjoy problem solving and
+            believe my talents are fitting for a coder, so I fell in love quickly. Over the years I have learned a few
+            languages to a proficient or certified level, those include HTML, CSS, Java Script, Structured Query
+            Language(SQL), C# and C++. My favorite, most proficient and most knowledgeable is C#. I desire to learn more
+            languages and become more proficient in more languages, as learning new things is fun to me.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="py-5" id="resume">
+    <div class="container py-5">
+      <header class="mb-5 pb-4">
+        <p class="fw-bold text-primary text-uppercase">My Official Resume</p>
+        <h2 class="text-uppercase lined">Resume</h2>
+      </header>
+      <div class="row">
+        <div class="col-lg-4 col-md-3 col-sm-12"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <a href="Resume.docx" download="Resume">
+            <div class="card text-white px-2 pb-2 pt-0 text-center bg-secondary">
+              <div class="card-body">
+                <p class="card-title">Resume</p>
+                <img src="images/ResumePic.PNG" class="img-fluid" alt="My Resume" />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-12"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coursework Section-->
+  <section class="py-5 bg-light" id="coursework">
+    <div class="container py-5">
+      <header class="mb-5 pb-4">
+        <p class="fw-bold text-primary text-uppercase">Classroom Projects I have coded</p>
+        <h2 class="text-uppercase lined">Coursework</h2>
+      </header>
+      <ul>
+        <li class=" ms-3 pb-4">
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <h5 class="mb-0"><a class="text-primary" href="/mid/index.html">Mid-Term Run Day Website</a></h5>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">This project was the first big, full website we were expected to create. This website was constructed in HTML5, CSS, Bootstrap, and JavaScript.</p>
+            </div>
+          </div>
+        </li>
+        <li class=" ms-3 pb-4">
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <h5 class="mb-0"><a class="text-primary" href="/TeamSport/index.html">Team Sport Website</a></h5>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">The website was created for our first bootstrap test. I selected to make a small store for a made up store call Team Sports. This website was constructed in HTML5, CSS, and Bootstrap.</p>
+            </div>
+          </div>
+        </li>
+        <li class=" ms-3 pb-4">
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <h5 class="mb-0"><a class="text-primary" href="">CRUD React.js Website</a></h5>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">This was our first dive into react as a whole. The website is used for people to see, search, and look up the top hockey players to play. The tech stack I used for this application is JSX, HTML, CSS, Bootstrap and JavaScript.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Freelance Work -->
+  <section class="py-5" id="experience">
+    <div class="container py-5">
+      <header class="mb-5 pb-4">
+        <p class="fw-bold text-primary text-uppercase letter-spacing-3">Freelance Work</p>
+        <h2 class="text-uppercase lined">Portfolio</h2>
+      </header>
+      <ul class="timeline">
+
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <h3 class="fw-bold mb-2 text-info text-sm">Be a collision engineer</h3>
+              <h2 class="h5 mb-0 text-uppercase"><a href="https://www.beacollisionengineer.com/">link</a></h2>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">I am creating and maintaining a website in HTML5, CSS, Bootstrap, and JavaScript for be a collision engineer. Collision Engineering was founded by Enterprise Holdings. Their goal is to brings the collision industry and education together to deliver a national workforce development program that not only increases the number of qualified technicians, but offers advanced education, and ever-expanding career opportunities to our students.</p>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-light py-5" id="contact">
+    <div class="container py-5">
+      <header class="mb-5 pb-4">
+        <p class="fw-bold text-primary text-uppercase letter-spacing-3">Information to get ahold of me</p>
+        <h2 class="text-uppercase lined">Contact</h2>
+      </header>
+      <div class="row gy-4">
+
+        <!-- Location -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <a href="#">
+            <div class="card text-white px-4 py-4 text-center bg-secondary">
+              <div class="card-body">
+                <h4 class="card-title">Location</h4>
+                <p class="card-text">St. Louis, MO</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Phone -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <a href="tel: 3142557012">
+            <div class="card text-white px-4 py-4 text-center bg-secondary">
+              <div class="card-body">
+                <h4 class="card-title">Phone</h4>
+                <p class="card-text">(314) 255-7012</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Linked In -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <a href="https://www.linkedin.com/in/andrew-jones-90a039150" target="_blank">
+            <div class="card text-white px-4 py-4 text-center bg-secondary">
+              <div class="card-body">
+                <h4 class="card-title">LinkedIn</h4>
+                <p class="card-text">Andrew Jones' LinkedIn</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Email -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <a href="JavaScript:newPopup('email.html');">
+            <div class="card text-white px-4 py-4 text-center bg-secondary">
+              <div class="card-body">
+                <h4 class="card-title">Email</h4>
+                <p class="card-text">drewjones2513@gmail.com</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer class="pt-5">
+    <div class="container text-center py-5">
+      <div class="row px-4">
+        <div class="col-lg-7 mx-auto">
+          <h2 class="text-uppercase mb-0">Andrew Jones </h2>
+          <h6 class="text-info text-uppercase mb-0 letter-spacing-3">Application and Web Developer</h6>
+          <p class="text-muted my-4">HTML, Css, Js, SQL, C#, C++</p>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a class="social-link" href="https://www.facebook.com/profile.php?id=100013373359470"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a class="social-link" href="www.linkedin.com/in/andrew-jones-90a039150"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a class="social-link" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

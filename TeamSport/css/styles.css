@@ -1,0 +1,55 @@
+/*
+Andrew Jones
+9/22/2022
+Bootstrap Test
+*/
+
+body {
+  padding-bottom: 50px;
+}
+
+.jumbotron {
+  background-image: url("../images/back.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  text-shadow: yellow 5px 5px 8px;
+}
+
+.jumbotron-raffle {
+  background-image: url("../images/signed-stick.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  background-color: black;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  text-shadow: darkorange 5px 5px 8px;
+}
+
+.container-fluid > ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.stick-link {
+  text-decoration: underline;
+  color: blue;
+}
+
+.job {
+  border-bottom: 2px solid black;
+}
